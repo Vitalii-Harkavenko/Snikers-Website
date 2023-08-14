@@ -9,6 +9,8 @@ import facebook from "./assets/facebook.svg"
 import twitter from "./assets/twitter.svg"
 
 function App() {
+
+
   return (
     <>
       <header className="w-full h-[90vh] bg-gradient-to-b from-secondary-bg to-black relative overflow-hidden">
@@ -71,7 +73,11 @@ function App() {
           <Carousel type="new collection"/>
         </section>
         <section className="flex md:flex-row flex-col px-8 xl:px-24 gap-8 xl:gap-24 w-full">
-          <div className="min-w-[50vw] h-[50vw] bg-neutral-900"></div>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9531.08202200514!2d-73.99559673492924!3d40.72116431518832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259e713d43875%3A0xbfd5eb3c3e1bb328!2sMUSEUM%20OF%20ICE%20CREAM!5e0!3m2!1suk!2slt!4v1692051190423!5m2!1suk!2slt"
+            className="min-w-[50vw] h-[50vw]"
+            loading="lazy">
+          </iframe>
           <div className="flex flex-col w-full">
             <div className="p-4 w-full text-center border-b-2 border-solid border-white">
               <h3>Store One</h3>

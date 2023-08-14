@@ -14,14 +14,14 @@ function App() {
   return (
     <>
       <header className="w-full h-[90vh] bg-gradient-to-b from-secondary-bg to-black relative overflow-hidden">
-        <div className="absolute top-0 left-0 md:top-1/2 md:-left-[10vw] md:-translate-y-1/2 brightness-[0.4]">
+        <div className="absolute top-0 left-0 md:top-1/2 md:-left-[10vw] md:-translate-y-1/2 brightness-[0.3]">
           <div className="absolute w-full h-full backdrop-blur-sm"></div>
           <img src={snikers1} alt="snikers" className="md:h-[60vh] md:w-auto w-screen"/>
         </div>
-        <div className="w-[120vw] md:w-[65vw] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 filter-hero rounded-lg overflow-hidden">
+        <div className="w-[150vw] md:w-[65vw] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 filter-hero rounded-lg overflow-hidden">
           <img src={heroMain} alt="snikers" />
         </div>
-        <div className="absolute bottom-0 right-0 md:bottom-auto md:top-1/2 md:-right-[10vw] md:-translate-y-1/2 brightness-[0.4]">
+        <div className="absolute bottom-0 right-0 md:bottom-auto md:top-1/2 md:-right-[10vw] md:-translate-y-1/2 brightness-[0.3]">
           <div className="absolute w-full h-full backdrop-blur-sm"></div>
           <img src={snikers2} alt="snikers" className="md:h-[60vh] md:w-auto w-screen"/>
         </div>
@@ -50,7 +50,7 @@ function App() {
             </p>
           </div>
           <div className="w-full h-[2px] bg-secondary-blue"></div>
-          <div className="flex flex-col items-center px-8 xl:px-24 gap-32">
+          <div className="flex flex-col items-center px-8 xl:px-24 gap-24">
             <h3>Our journey</h3>
             <TextComponent info={{
               title: "The Idea",
@@ -102,7 +102,7 @@ function App() {
           </div>
         </section>
       </main>
-      <footer className="bg-secondary-bg px-24 flex flex-col gap-16 py-16">
+      <footer className="bg-secondary-bg px-8 md:px-24 flex flex-col gap-16 py-16">
         <div className="relative flex flex-wrap justify-between my-auto gap-16 md:gap-0">
           <div className="md:px-8 md:w-1/2 w-full">
             <h2>Subsctibe to our news letter</h2>
